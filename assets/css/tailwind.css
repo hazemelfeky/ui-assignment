@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Nunito";
+}
+
+.container {
+  @apply max-w-[1280px] lg:px-10 px-4 mx-auto;
+}
+
+.main-btn {
+  @apply flex gap-1 items-center bg-primary-gradient px-[16.5px] py-[10.5px] text-white rounded-[10px] text-sm font-bold h-10;
+}
